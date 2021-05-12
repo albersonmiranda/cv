@@ -49,27 +49,49 @@ Aside
 ================================================================================
 
 <!-- Swap image with your preferred logo -->
-![logo](circle-cropped.png){width=100%}
+<!-- ![logo](circle-cropped.png){width=100%} -->
 
 
 
 Contact {#contact}
 --------------------------------------------------------------------------------
 
-```{r}
-CV %>% print_contact_info()
-```
+<i class="fa fa-envelope"></i> albersonmiranda@hotmail.com
+
+<i class="fab fa-linkedin-in"></i> [`@`albersonmiranda](https://www.linkedin.com/in/albersonmiranda/)
+
+<i class="fa fa-twitter"></i> [`@`AlbersonMiranda](https://twitter.com/AlbersonMiranda)
+
+<i class="fa fa-github"></i> [`@`albersonmiranda](https://github.com/albersonmiranda)
+
+<i class="fab fa-gitlab"></i> [`@`albersonmiranda](https://gitlab.com/albersonmiranda)
+
+<i class="fab fa-stack-overflow"></i> [`@`alberson-miranda](https://stackoverflow.com/users/8430277/alberson-miranda)
+
+<i class="fa fa-home"></i> [Datamares & Dreamscapes](https://datamares.netlify.app)
 
 
 
 Language Skills {#skills}
 --------------------------------------------------------------------------------
 
-```{r}
-CV %>% print_skill_bars()
-```
+<i class="fab fa-r-project"></i> `R`
 
+<i class="fab fa-python"></i> `Python`
 
+<i class="fas fa-database"></i> `SQL`
+
+<img src="img/apache-spark-icon.png" width="5%"> `Spark`
+
+<i class="fas fa-code-branch"></i> `Git`
+
+<i class="fab fa-github"></i> `GitHub|Actions`
+
+<i class="fas fa-markdown"></i> `Markdown`
+
+<i class="fab fa-html5"></i> `HTML`
+
+<i class="fab fa-css3-alt"></i> `CSS|SASS`
 
 Main
 ================================================================================
