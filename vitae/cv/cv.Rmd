@@ -1,0 +1,81 @@
+---
+name: Alberson
+surname: Miranda
+position: "Economics | Analytics | Data Science"
+address: "Vitória, Brazil"
+www: "datamares.netlify.app/"
+email: "albersonmiranda@hotmail.com"
+twitter: albersonmiranda
+github: albersonmiranda
+linkedin: albersonmiranda
+headcolor: "414141"
+date: "`r format(Sys.time(), '%B %Y')`"
+output: 
+  vitae::awesomecv:
+    page_total: true
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE)
+library(vitae)
+library(tibble)
+```
+
+# Industry Positions
+
+```{r industry}
+tribble(
+  ~ role, ~ company, ~ loc, ~ dates, ~ details,
+  "Advisor", "Banestes SA", "Vitória, Brazil", "Apr. 2022 - Present",
+    list("Analytics in Credit Innovation Office.",
+         "Stack: R, MS SQL Server, Python, VSCode."
+    ),
+  "Innovation Coordinator", "Banestes SA", "Vitória, Brazil", "Oct. 2021 - Mar. 2022",
+    list("Wrote equations for optimal fee and waiving for credit cards.",
+         "Involved in open and incremental innovation programs."
+         ),
+  "Squads Coordinator", "Banestes SA", "Vitória, Brazil", "Jan. 2020 - Sep. 2021",
+    list("Develop models, tests and statistical experiments to assist in the decision making and data-related products."
+    ),
+  "Head of Collection", "Banestes SA", "Vitória, Brazil", "Apr. 2014 - Dec. 2019",
+    list("Developed strategies and managed contracts.",
+         "Applied of econometric techniques for collection and budget planning."
+    ),
+  "Loan Officer", "Banestes SA", "Vitória, Brazil", "Jul. 2008 - Mar. 2014",
+    list("Processing applications for BNDES loans."
+    )
+) %>%
+  detailed_entries(role, dates, company, loc, details)
+```
+
+# Education
+
+```{r education}
+tribble(
+  ~ degree, ~ uni, ~ loc, ~ dates, ~ details,
+  "M.Sc in Economics", "Universidade Federal do Espírito Santo", "Vitória, Brazil", "Jan. 2022 - Dec. 2023",
+    list("Thesis: Optimal Probabilistic Forecast Conciliation for Hierarquical Time Series",
+         "Studied units include Advanced Microeconomics, Advanced Macroeconomics, Advanced Econometrics, Time Series Analysis and Economics of Information, Culture and Knowledge."),
+  "B.Sc in Mathematics", "Instituto Federal do Espírito Santo", "Vitória, Brazil", "Fev. 2018 - Dec. 2022",
+    list(
+      "Thesis: Education-Income Relations in Espírito Santo.",
+      "Studied units include Real Analysis, Number Theory, Algebra, Axiomatic Geometry, Linear Algebra, Statistics and Complex Calculus."
+    ),
+  "B.Sc in Economics", "Universidade Federal do Espírito Santo", "Vitória, Brazil", "Fev. 2007 - Dec. 2013",
+    list(
+      "Thesis: Solow Versus Endogenous Growth Models."
+    )
+) %>%
+  detailed_entries(degree, dates, uni, loc, details)
+```
+
+<!-- # Publications
+
+``{r}
+library(dplyr)
+knitr::write_bib(c("vitae", "tibble"), "packages.bib")
+
+bibliography_entries("packages.bib") %>%
+  arrange(desc(author$family), issued)
+``
+-->

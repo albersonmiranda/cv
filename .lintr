@@ -1,0 +1,7 @@
+linters: with_defaults(
+  assignment_linter = NULL,
+  line_length_linter = NULL
+  )
+exclude: "# nolint"
+exclude_start: "# begin nolint"
+exclude_end: "# end nolint"
