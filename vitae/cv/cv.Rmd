@@ -27,19 +27,21 @@ library(tibble)
 tribble(
   ~ role, ~ company, ~ loc, ~ dates, ~ details,
   "Advisor", "Banestes SA", "Vitória, Brazil", "Apr. 2022 - Present",
-    list("Analytics in Credit Innovation Office.",
-         "Stack: R, MS SQL Server, Python, VSCode."
+    list(
+      "Analytics in Credit Innovation Office.",
+      "Perform statistical analysis and build predictive models on high dimensional data.",
+      "Stack: R, MS SQL Server, Python, VSCode."
     ),
   "Innovation Coordinator", "Banestes SA", "Vitória, Brazil", "Oct. 2021 - Mar. 2022",
     list("Wrote equations for optimal fee and waiving for credit cards.",
          "Involved in open and incremental innovation programs."
          ),
   "Squads Coordinator", "Banestes SA", "Vitória, Brazil", "Jan. 2020 - Sep. 2021",
-    list("Develop models, tests and statistical experiments to assist in the decision making and data-related products."
+    list("Train, evaluate and interpret models, tests and statistical experiments to assist in the decision making and data-related products."
     ),
   "Head of Collection", "Banestes SA", "Vitória, Brazil", "Apr. 2014 - Dec. 2019",
     list("Developed strategies and managed contracts.",
-         "Applied of econometric techniques for collection and budget planning."
+         "Applied several econometric techniques for collection and budget planning."
     ),
   "Loan Officer", "Banestes SA", "Vitória, Brazil", "Jul. 2008 - Mar. 2014",
     list("Processing applications for BNDES loans."
@@ -54,7 +56,7 @@ tribble(
 tribble(
   ~ degree, ~ uni, ~ loc, ~ dates, ~ details,
   "M.Sc in Economics", "Universidade Federal do Espírito Santo", "Vitória, Brazil", "Jan. 2022 - Dec. 2023",
-    list("Thesis: Optimal Probabilistic Forecast Conciliation for Hierarquical Time Series",
+    list("Thesis: Machine Learning Methods for Optimal Reconciliation of Hierarchical and Grouped Time Series",
          "Studied units include Advanced Microeconomics, Advanced Macroeconomics, Advanced Econometrics, Time Series Analysis and Economics of Information, Culture and Knowledge."),
   "B.Sc in Mathematics", "Instituto Federal do Espírito Santo", "Vitória, Brazil", "Fev. 2018 - Dec. 2022",
     list(
