@@ -1,11 +1,10 @@
 ---
 name: Alberson
 surname: Miranda
-position: "Economics | Analytics | Data Science"
+position: "Data Science | Analytics | Economics"
 address: "Vitória, Brazil"
-www: "datamares.netlify.app/"
+www: "datamares.netlify.app/en/"
 email: "albersonmiranda@hotmail.com"
-twitter: albersonmiranda
 github: albersonmiranda
 linkedin: albersonmiranda
 headcolor: "414141"
@@ -25,27 +24,37 @@ library(tibble)
 
 ```{r industry}
 tribble(
-  ~ role, ~ company, ~ loc, ~ dates, ~ details,
-  "Advisor", "Banestes SA", "Vitória, Brazil", "Apr. 2022 - Present",
-    list(
-      "Analytics in Credit Innovation Office.",
-      "Perform statistical analysis and build predictive models on high dimensional data.",
-      "Stack: R, MS SQL Server, Python, VSCode."
-    ),
+  ~role, ~company, ~loc, ~dates, ~details,
+  "Advisor", "Banestes SA", "Vitória, Brazil", "Jul. 2024 - Present",
+  list(
+    "Risk Models Office.",
+    "Build, monitor and tune risk related models through statistics and machine learning (credit, liquidity, market, stress etc.)",
+    "Perform economics analysis in order to support models.",
+    "Stack: R, MS SQL Server, Python, VSCode, Jira, Bitbucket."
+  ),
+  "Advisor", "Banestes SA", "Vitória, Brazil", "Apr. 2022 - Jun. 2024",
+  list(
+    "Analytics in Credit Innovation Office.",
+    "Train, evaluate and interpret models, tests and statistical experiments to assist in the decision making and data-related products."
+  ),
   "Innovation Coordinator", "Banestes SA", "Vitória, Brazil", "Oct. 2021 - Mar. 2022",
-    list("Wrote equations for optimal fee and waiving for credit cards.",
-         "Involved in open and incremental innovation programs."
-         ),
+  list(
+    "Wrote equations for optimal fee and waiving for credit cards.",
+    "Involved in open and incremental innovation programs."
+  ),
   "Squads Coordinator", "Banestes SA", "Vitória, Brazil", "Jan. 2020 - Sep. 2021",
-    list("Train, evaluate and interpret models, tests and statistical experiments to assist in the decision making and data-related products."
-    ),
+  list(
+    #"Train, evaluate and interpret models, tests and statistical experiments to assist in the decision making and data-related products."
+  ),
   "Head of Collection", "Banestes SA", "Vitória, Brazil", "Apr. 2014 - Dec. 2019",
-    list("Developed strategies and managed contracts.",
-         "Applied several econometric techniques for collection and budget planning."
-    ),
+  list(
+    "Developed strategies and managed contracts.",
+    "Applied several econometric techniques for collection and budget planning."
+  ),
   "Loan Officer", "Banestes SA", "Vitória, Brazil", "Jul. 2008 - Mar. 2014",
-    list("Processing applications for BNDES loans."
-    )
+  list(
+    #"Processing applications for BNDES loans."
+  )
 ) %>%
   detailed_entries(role, dates, company, loc, details)
 ```
@@ -54,30 +63,32 @@ tribble(
 
 ```{r education}
 tribble(
-  ~ degree, ~ uni, ~ loc, ~ dates, ~ details,
+  ~degree, ~uni, ~loc, ~dates, ~details,
+  "PhD in Economics", "Universidade Federal do Espírito Santo", "Vitória, Brazil", "Jan. 2024 - Present",
+  list(
+    "Research area: Time Series Econometrics.",
+    "Studied units include Input-Output Analysis, Evaluation of Public Policies, Numerical Linear Algebra, Multivariate Methods for Data Analysis."
+  ),
   "M.Sc in Economics", "Universidade Federal do Espírito Santo", "Vitória, Brazil", "Jan. 2022 - Dec. 2023",
-    list("Thesis: Machine Learning Methods for Optimal Reconciliation of Hierarchical and Grouped Time Series",
-         "Studied units include Advanced Microeconomics, Advanced Macroeconomics, Advanced Econometrics, Time Series Analysis and Economics of Information, Culture and Knowledge."),
-  "B.Sc in Mathematics", "Instituto Federal do Espírito Santo", "Vitória, Brazil", "Fev. 2018 - Dec. 2022",
-    list(
-      "Thesis: Education-Income Relations in Espírito Santo.",
-      "Studied units include Real Analysis, Number Theory, Algebra, Axiomatic Geometry, Linear Algebra, Statistics and Complex Calculus."
-    ),
+  list(
+    "Thesis: Machine Learning Methods for Optimal Reconciliation of Hierarchical and Grouped Time Series",
+    "Studied units include Advanced Microeconomics, Advanced Macroeconomics, Advanced Econometrics, Time Series Analysis and Economics of Information, Culture and Knowledge."
+  ),
+  "B.Sc in Mathematics", "Instituto Federal do Espírito Santo", "Vitória, Brazil", "Fev. 2018 - Dec. 2023",
+  list(
+    #"Thesis: Education-Income Relations in Espírito Santo.",
+    #"Studied units include Real Analysis, Number Theory, Algebra, Axiomatic Geometry, Linear Algebra, Statistics and Complex Calculus."
+  ),
   "B.Sc in Economics", "Universidade Federal do Espírito Santo", "Vitória, Brazil", "Fev. 2007 - Dec. 2013",
-    list(
-      "Thesis: Solow Versus Endogenous Growth Models."
-    )
+  list(
+    #"Thesis: Solow Versus Endogenous Growth Models."
+  )
 ) %>%
   detailed_entries(degree, dates, uni, loc, details)
 ```
 
-<!-- # Publications
+# Software
 
-``{r}
-library(dplyr)
-knitr::write_bib(c("vitae", "tibble"), "packages.bib")
+da Silva Miranda A (2024). _fio: Friendly Input-Output Analysis_. R package version 0.1.2, <https://CRAN.R-project.org/package=fio>.
 
-bibliography_entries("packages.bib") %>%
-  arrange(desc(author$family), issued)
-``
--->
+The `fio` package was written in the context of my PhD, when studying input-output analysis. It uses Rust programming language to speed up linear algebra operations and it's currently the fastest software for input-output analysis.
