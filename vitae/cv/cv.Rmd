@@ -3,7 +3,7 @@ name: Alberson
 surname: Miranda
 position: "Data Science | Analytics | Economics"
 address: "Vitória, Brazil"
-www: "datamares.netlify.app/en/"
+www: "datamares.netlify.app/"
 email: "albersonmiranda@hotmail.com"
 github: albersonmiranda
 linkedin: albersonmiranda
@@ -89,6 +89,6 @@ tribble(
 
 # Software
 
-da Silva Miranda A (2024). _fio: Friendly Input-Output Analysis_. R package version 0.1.2, <https://CRAN.R-project.org/package=fio>.
+da Silva Miranda A (2024). _fio: Friendly Input-Output Analysis_. R package version 0.1.6, <https://CRAN.R-project.org/package=fio>.
 
 The `fio` package was written in the context of my PhD, when studying input-output analysis. It uses Rust programming language to speed up linear algebra operations and it's currently the fastest software for input-output analysis.
