@@ -27,33 +27,29 @@ tribble(
   ~role, ~company, ~loc, ~dates, ~details,
   "Advisor", "Banestes SA", "Vitória, Brazil", "Jul. 2024 - Present",
   list(
-    "Risk Models Office.",
+    "Credit Risk Modelling office.",
     "Build, monitor and tune risk related models through statistics and machine learning (credit, liquidity, market, stress etc.)",
     "Perform economics analysis in order to support models.",
-    "Stack: R, MS SQL Server, Python, VSCode, Jira, Bitbucket."
+    "Stack: R, MS SQL Server, Python, VSCode, Jira, Bitbucket.",
+    ""
   ),
-  "Advisor", "Banestes SA", "Vitória, Brazil", "Apr. 2022 - Jun. 2024",
+  "Advisor", "Banestes SA", "Vitória, Brazil", "Jan. 2020 - Jun. 2024",
   list(
     "Analytics in Credit Innovation Office.",
-    "Train, evaluate and interpret models, tests and statistical experiments to assist in the decision making and data-related products."
-  ),
-  "Innovation Coordinator", "Banestes SA", "Vitória, Brazil", "Oct. 2021 - Mar. 2022",
-  list(
+    "Train, evaluate and interpret models, tests and statistical experiments to assist in the decision making and data-related products.",
     "Wrote equations for optimal fee and waiving for credit cards.",
-    "Involved in open and incremental innovation programs."
-  ),
-  "Squads Coordinator", "Banestes SA", "Vitória, Brazil", "Jan. 2020 - Sep. 2021",
-  list(
-    #"Train, evaluate and interpret models, tests and statistical experiments to assist in the decision making and data-related products."
+    "Involved in open and incremental innovation programs.",
+    ""
   ),
   "Head of Collection", "Banestes SA", "Vitória, Brazil", "Apr. 2014 - Dec. 2019",
   list(
     "Developed strategies and managed contracts.",
-    "Applied several econometric techniques for collection and budget planning."
+    "Applied several econometric techniques for collection and budget planning.",
+    ""
   ),
   "Loan Officer", "Banestes SA", "Vitória, Brazil", "Jul. 2008 - Mar. 2014",
   list(
-    #"Processing applications for BNDES loans."
+    #""
   )
 ) %>%
   detailed_entries(role, dates, company, loc, details)
@@ -67,12 +63,14 @@ tribble(
   "PhD in Economics", "Universidade Federal do Espírito Santo", "Vitória, Brazil", "Jan. 2024 - Present",
   list(
     "Research area: Time Series Econometrics.",
-    "Studied units include Input-Output Analysis, Evaluation of Public Policies, Numerical Linear Algebra, Multivariate Methods for Data Analysis."
+    "Studied units include Input-Output Analysis, Evaluation of Public Policies, Multivariate Methods for Data Analysis.",
+    ""
   ),
   "M.Sc in Economics", "Universidade Federal do Espírito Santo", "Vitória, Brazil", "Jan. 2022 - Dec. 2023",
   list(
     "Thesis: Machine Learning Methods for Optimal Reconciliation of Hierarchical and Grouped Time Series",
-    "Studied units include Advanced Microeconomics, Advanced Macroeconomics, Advanced Econometrics, Time Series Analysis and Economics of Information, Culture and Knowledge."
+    "Studied units include Advanced Microeconomics, Advanced Macroeconomics, Advanced Econometrics, Time Series Analysis and Economics of Information, Culture and Knowledge.",
+    ""
   ),
   "B.Sc in Mathematics", "Instituto Federal do Espírito Santo", "Vitória, Brazil", "Fev. 2018 - Dec. 2023",
   list(
@@ -89,6 +87,10 @@ tribble(
 
 # Software
 
-da Silva Miranda A (2024). _fio: Friendly Input-Output Analysis_. R package version 0.1.6, <https://CRAN.R-project.org/package=fio>.
+da Silva Miranda A (2025). _fio: Friendly Input-Output Analysis_. doi:10.32614/CRAN.package.fio <https://doi.org/10.32614/CRAN.package.fio>, R package version 0.1.6, <https://CRAN.R-project.org/package=fio> (author, maintainer).
 
-The `fio` package was written in the context of my PhD, when studying input-output analysis. It uses Rust programming language to speed up linear algebra operations and it's currently the fastest software for input-output analysis.
+Wilke C, Thomason A, Reimert M, Kosenkov I, Barrett M (2025). _rextendr: Call Rust Code from R using the 'extendr' Crate_. R package version 0.3.1.9001, <https://extendr.github.io/rextendr/> (contributor).
+
+# Other
+
+Translator of the portuguese version of the book _"R for Data Science"_ by Hadley Wickham and Garrett Grolemund (https://pt.r4ds.hadley.nz/).
