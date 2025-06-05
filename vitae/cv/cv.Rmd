@@ -28,8 +28,7 @@ tribble(
   "Advisor", "Banestes SA", "Vitória, Brazil", "Jul. 2024 - Present",
   list(
     "Credit Risk Modelling office.",
-    "Build, monitor and tune risk related models through statistics and machine learning (credit, liquidity, market, stress etc.)",
-    "Perform economics analysis in order to support models.",
+    "Build, monitor and tune risk related models through statistics and machine learning (e.g., probability of default, loss given default, forward looking)",
     "Stack: R, MS SQL Server, Python, VSCode, Jira, Bitbucket.",
     ""
   ),
@@ -37,8 +36,6 @@ tribble(
   list(
     "Analytics in Credit Innovation Office.",
     "Train, evaluate and interpret models, tests and statistical experiments to assist in the decision making and data-related products.",
-    "Wrote equations for optimal fee and waiving for credit cards.",
-    "Involved in open and incremental innovation programs.",
     ""
   ),
   "Head of Collection", "Banestes SA", "Vitória, Brazil", "Apr. 2014 - Dec. 2019",
@@ -62,7 +59,7 @@ tribble(
   ~degree, ~uni, ~loc, ~dates, ~details,
   "PhD in Economics", "Universidade Federal do Espírito Santo", "Vitória, Brazil", "Jan. 2024 - Present",
   list(
-    "Research area: Time Series Econometrics.",
+    "Research area: Hierarchical Time Series Econometrics.",
     "Studied units include Input-Output Analysis, Evaluation of Public Policies, Multivariate Methods for Data Analysis.",
     ""
   ),
@@ -90,6 +87,8 @@ tribble(
 da Silva Miranda A (2025). _fio: Friendly Input-Output Analysis_. doi:10.32614/CRAN.package.fio <https://doi.org/10.32614/CRAN.package.fio>, R package version 0.1.6, <https://CRAN.R-project.org/package=fio> (author, maintainer).
 
 Wilke C, Thomason A, Reimert M, Kosenkov I, Barrett M (2025). _rextendr: Call Rust Code from R using the 'extendr' Crate_. R package version 0.3.1.9001, <https://extendr.github.io/rextendr/> (contributor).
+
+da Silva Miranda A (2025). _R Tools PPA: Repository for Posit's Rstudio, Positron and Quarto for .deb and .rpm packages_. GitHub repository, https://github.com/albersonmiranda/r_tools_ppa (author, maintainer).
 
 # Other
 
