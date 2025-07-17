@@ -42,7 +42,7 @@ tribble(
   ),
   "Loan Officer", "Banestes SA", "Vitória, Brazil", "Jul. 2008 - Mar. 2014",
   list(
-    "Managed and processed loan applications, ensuring compliance and customer satisfaction." # Added a detail for this role.
+    #"Managed and processed loan applications, ensuring compliance and customer satisfaction."
   )
 ) %>%
   detailed_entries(role, dates, company, loc, details)
@@ -75,14 +75,12 @@ tribble(
   detailed_entries(degree, dates, uni, loc, details)
 ```
 
-# Software
+# Open-Source
 
-da Silva Miranda A (2025). _fio: Friendly Input-Output Analysis_. doi:10.32614/CRAN.package.fio <https://doi.org/10.32614/CRAN.package.fio>, R package version 0.1.6, <https://CRAN.R-project.org/package=fio> (author, maintainer).
+_fio: Friendly Input-Output Analysis_. R package, <https://CRAN.R-project.org/package=fio> (author, maintainer).
 
-Wilke C, Thomason A, Reimert M, Kosenkov I, Barrett M (2025). _rextendr: Call Rust Code from R using the 'extendr' Crate_. R package version 0.3.1.9001, <https://extendr.github.io/rextendr/> (contributor).
+_rextendr: Call Rust Code from R using the 'extendr' Crate_. R package, <https://extendr.github.io/rextendr/> (contributor).
 
-da Silva Miranda A (2025). _R Tools PPA: Repository for Posit's Rstudio, Positron and Quarto for .deb and .rpm packages_. GitHub repository, https://github.com/albersonmiranda/r_tools_ppa (author, maintainer).
-
-# Additional Experience
+_R Tools PPA: Repository for Posit's Rstudio, Positron and Quarto for .deb and .rpm packages_. GitHub repository, https://github.com/albersonmiranda/r_tools_ppa (author, maintainer).
 
 Translator of the portuguese version of the book _"R for Data Science"_ by Hadley Wickham and Garrett Grolemund (https://pt.r4ds.hadley.nz/).
