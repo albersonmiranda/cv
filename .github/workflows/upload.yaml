@@ -19,10 +19,10 @@ jobs:
         with:
           use-public-rspm: true
 
-      - uses: r-lib/actions/setup-r-dependencies@v2
-        with:
-          extra-packages: |
-            - any::vitae
+      - name: Install dependencies
+        run: |
+          install.packages(c("rmarkdown", "vitae"))
+        shell: Rscript {0}
 
       - name: Render CV
         run: |
