@@ -29,16 +29,19 @@ tribble(
   list(
     "Develop, monitor, and fine-tune expected credit loss models (IFRS9) using statistical and machine learning techniques.",
     "Work within the Credit Risk Modeling Office.",
-    "Utilize: R, Python, Google Cloud Platform, MS SQL Server, VSCode, Jira, Bitbucket."
+    "Utilize: R, Python, Google Cloud Platform, MS SQL Server, VSCode, Jira, Bitbucket.",
+    ""
   ),
   "Advisor", "Banestes SA", "Vitória, Brazil", "Jan. 2020 - Jun. 2024",
   list(
-    "Trained, evaluated, and interpreted statistical models and experiments to support data-driven decision-making and product development within the Credit Innovation Office."
+    "Trained, evaluated, and interpreted statistical models and experiments to support data-driven decision-making and product development within the Credit Innovation Office.",
+    ""
   ),
   "Head of Collection", "Banestes SA", "Vitória, Brazil", "Apr. 2014 - Dec. 2019",
   list(
     "Developed and implemented collection strategies that **improved recovery rates by 12% annually.**",
-    "Applied econometric techniques for optimized collection and budget planning."
+    "Applied econometric techniques for optimized collection and budget planning.",
+    ""
   ),
   "Loan Officer", "Banestes SA", "Vitória, Brazil", "Jul. 2008 - Mar. 2014",
   list(
@@ -56,20 +59,24 @@ tribble(
   "PhD in Economics", "Universidade Federal do Espírito Santo", "Vitória, Brazil", "Jan. 2024 - Present",
   list(
     "Research Area: Regularized Hierarchical Time Series Econometrics.",
-    "Relevant coursework: Input-Output Analysis, Evaluation of Public Policies, Multivariate Methods for Data Analysis."
+    "Relevant coursework: Input-Output Analysis, Evaluation of Public Policies, Multivariate Methods for Data Analysis.",
+    ""
   ),
   "M.Sc in Economics", "Universidade Federal do Espírito Santo", "Vitória, Brazil", "Jan. 2022 - Dec. 2023",
   list(
     "Thesis: \"Machine Learning Methods for Optimal Reconciliation of Hierarchical and Grouped Time Series.\"",
-    "Relevant coursework: Advanced Microeconomics, Advanced Macroeconomics, Advanced Econometrics, Time Series Analysis, Economics of Information, Culture and Knowledge."
+    "Relevant coursework: Advanced Microeconomics, Advanced Macroeconomics, Advanced Econometrics, Time Series Analysis, Economics of Information, Culture and Knowledge.",
+    ""
   ),
   "B.Sc in Mathematics", "Instituto Federal do Espírito Santo", "Vitória, Brazil", "Feb. 2018 - Dec. 2023",
   list(
-    "Coursework included: Real Analysis, Number Theory, Algebra, Axiomatic Geometry, Linear Algebra, Statistics, and Complex Calculus."
+    "Coursework included: Real Analysis, Number Theory, Algebra, Axiomatic Geometry, Linear Algebra, Statistics, and Complex Calculus.",
+    ""
   ),
   "B.Sc in Economics", "Universidade Federal do Espírito Santo", "Vitória, Brazil", "Feb. 2007 - Dec. 2013",
   list(
-    "Coursework included: Microeconomics, Macroeconomics, Econometrics."
+    "Coursework included: Microeconomics, Macroeconomics, Econometrics.",
+    ""
   )
 ) %>%
   detailed_entries(degree, dates, uni, loc, details)
