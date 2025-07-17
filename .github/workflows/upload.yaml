@@ -30,7 +30,7 @@ jobs:
 
       - name: Render CV
         run: |
-          rmarkdown::render('cv.Rmd')
+          rmarkdown::render('vitae/cv/cv.Rmd')
         shell: Rscript {0}
 
       - name: Upload CV
