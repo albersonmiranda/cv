@@ -25,25 +25,25 @@ library(tibble)
 ```{r industry}
 tribble(
   ~role, ~company, ~loc, ~dates, ~details,
-  "Advisor (Credit Risk Modeling Office)", "Banestes SA", "Vitória, Brazil", "Jul. 2024 - Present",
+  "Advisor (Credit Risk Modeling Office)", "Bank of the State of Espírito Santo", "Vitória, Brazil", "Jul. 2024 - Present",
   c(
     "Develop, monitor, and fine-tune expected credit loss models (IFRS9) using statistical and machine learning techniques.",
     "Stack: R, Python, Google Cloud Platform, MS SQL Server, VSCode, Jira, Bitbucket."
   ),
-  "Advisor (Credit Innovation Office)", "Banestes SA", "Vitória, Brazil", "Jan. 2020 - Jun. 2024",
+  "Advisor (Credit Innovation Office)", "Bank of the State of Espírito Santo", "Vitória, Brazil", "Jan. 2020 - Jun. 2024",
   c(
     "Trained, evaluated, and interpreted statistical models to support data-driven decision-making.",
     "Designed customer segmentation models to support the launch of a new credit card, and formulated pricing equations for service fees and loyalty incentives.",
     "Contributed to the implementation of the company’s first enterprise data warehouse, enabling centralized and scalable data analytics"
   ),
-  "Head of Collection", "Banestes SA", "Vitória, Brazil", "Apr. 2014 - Dec. 2019",
+  "Head of Collection", "Bank of the State of Espírito Santo", "Vitória, Brazil", "Apr. 2014 - Dec. 2019",
   c(
     "Developed and implemented collection strategies that improved recovery rates by 12% annually.",
     "Applied econometric techniques for optimized collection and budget planning.",
     "Designed and maintained a MySQL database tailored to collection operations.",
     "Introduced the R programming language to the company, enhancing data analysis capabilities."
   ),
-  "Credit Analyst", "Banestes SA", "Vitória, Brazil", "Jul. 2008 - Mar. 2014", NULL
+  "Credit Analyst", "Bank of the State of Espírito Santo", "Vitória, Brazil", "Jul. 2008 - Mar. 2014", NULL
 ) %>%
   detailed_entries(role, dates, company, loc, details)
 ```
