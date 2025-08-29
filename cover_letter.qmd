@@ -1,0 +1,35 @@
+---
+author:
+  - name: Alberson da Silva Miranda
+    affiliation:
+      - name: Federal University of Espírito Santo
+        department: Department of Economics
+        address: Av. Fernando Ferrari, 514
+        city: Vitória
+        country: Brazil
+        postal-code: 29075-910
+address:
+  - FinnGen
+  - Institute for Molecular Medicine Finland (FIMM)
+  - University of Helsinki
+  - Helsinki, Finland
+subject: Application for Data Scientist Position
+subject-title: "Subject"
+opening: "Dear Hiring Committee,"
+closing: "Warm regards,"
+format:
+  letter-pdf:
+    output-file: index
+---
+
+I am writing to express my sincere interest in the Data Scientist position with FinnGen at FIMM. The opportunity to support cutting-edge research and work alongside world-class professionals aligns precisely with my experience, professional passion, and academic pursuits.
+
+I hold bachelor's degrees in both Economics and Mathematics, a Master’s degree in Economics and am currently pursuing a PhD in Economics at the Federal University of Espírito Santo, Brazil. I have completed all coursework requirements and am now fully focused on writing my dissertation, which centers on hierarchical time series econometrics and machine learning methods for reconciliation. My deep grounding in statistical methodology, combined with advanced modeling techniques, directly speaks to the demands of developing causal, survival, and predictive models as outlined in the job posting.
+
+My professional toolkit includes R, Rust, Python, and extensive use of SQL, as well as experience in Linux environments (specially Fedora and Ubuntu) matches the technical requirements of your role at FinnGen. I’ve built, evaluated and monitored risk models at scale (IFRS9 compliance) in R, working with Google Cloud Platform and MS SQL Server, mirroring your expectations for hands-on proficiency in statistical programming.
+
+As the author and maintainer of the {fio} R package for economic analysis and a core contributor to {rextendr}, which bridges R and Rust, I do not only use, but also build tools for high-performance data analysis. I also maintain a repository for Posit's Quarto, Rstudio and Positron deb/rpm packages, highlighting my expertise in Linux environments. I'm engaged in a broad community of users and developers around the world.
+
+I look forward to the possibility of discussing how my background in statistical programming, modeling, and open-source development can support FinnGen’s mission to transform health outcomes through deep data insight.
+
+Thank you for considering my application.
