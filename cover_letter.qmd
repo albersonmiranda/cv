@@ -19,7 +19,7 @@ opening: "Dear Hiring Committee,"
 closing: "Warm regards,"
 format:
   letter-pdf:
-    output-file: index
+    output-file: cover_letter
 ---
 
 I am writing to express my sincere interest in the Data Scientist position with FinnGen at FIMM. The opportunity to support cutting-edge research and work alongside world-class professionals aligns precisely with my experience, professional passion, and academic pursuits.
